@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Runner</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="task">
+            <div class="btn">
+                <a href="index.html">back</a>
+                <a href="">next</a>
+            </div>
+            <img src="task/xndir1.PNG" alt="">
+        </div>
+        <div class="container">
+            <h1 style="color: aliceblue;">Python Exercise Runner</h1>
+    
+            <!-- Place where exercises will be displayed -->
+            <div class="exercise-box">
+                <h2 style="color: aliceblue;">Exercise</h2>
+                <p id="exercise" style="color: aliceblue;">Given a = input() , b = input() c = input() <br>write code that will work</p>
+            </div>
+    
+            <!-- Input for user to write their code -->
+            <div class="code-box">
+                <h2 style="color: aliceblue;">Your Code:</h2>
+                <textarea style="background-color: rgba(0, 0, 0, 0.8); color: #fff;" id="userCode" rows="10" placeholder="Write your code here..."></textarea>
+            </div>
+            <!-- RUN button -->
+            <button id="runButton" onclick="func()">RUN</button>
+    
+            <!-- Result Output -->
+            <div class="result-box">
+                <h2 style="color: aliceblue;">Result:</h2>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
